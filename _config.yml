@@ -1,0 +1,26 @@
+# Basic GitHub Pages configuration to serve README.md as index
+title: StingBat Bot
+description: Stingbat Bot, a Discord bot for Shadowdark RPG
+theme: jekyll-theme-minimal
+
+# Show README.md as the index page
+readme_index:
+  enabled: true
+  remove_originals: false
+
+# Custom domain configuration
+domain: stingbatbot.com
+url: "https://stingbatbot.com"
+baseurl: ""
+
+# Other common settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Optional: Set the repository name if it's not automatically detected
+# repository: username/repository-name
+
+# Optional: Google Analytics
+# google_analytics: [your tracking ID] 
