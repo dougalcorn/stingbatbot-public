@@ -7,8 +7,21 @@ This is a Discord bot designed for playing [Shadowdark RPG](https://www.thearcan
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="https://discord.com/oauth2/authorize?client_id=1300123142785601667&permissions=2048&response_type=code&redirect_uri=https%3A%2F%2Fstingbatbot.com&integration_type=0&scope=identify+applications.commands+bot+guilds+dm_channels.messages.read+dm_channels.messages.write+messages.read" style="display: inline-block; padding: 10px 20px; background-color: #267CB9; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 0; border: none;">Invite Stingbat Bot to your server</a>
+  <a href="https://discord.com/oauth2/authorize?client_id=1300123142785601667" style="display: inline-block; padding: 10px 20px; background-color: #267CB9; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 0; border: none;">Invite Stingbat Bot to your server</a>
 </div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://discord.com/oauth2/authorize?client_id=1345528655350206494" style="display: inline-block; padding: 10px 20px; background-color: #741D1B; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 10px 0; border: none;">Invite Development Stingbat Bot to your server</a>
+</div>
+
+## Commands
+
+<img src="images/Gund Short Sheet 2025-03-01 at 4.42.44 PM.png" alt="Character Sheet Summary" style="width: 300px; margin: 0 auto; display: block; float: right;">
+- `!help` - Display a list of commands
+- `!sheet` - Display a character sheet summary
+- `!details` - Display a character's details: attacks with descriptions, full inventory, and spells
+- `!roll` - Roll a dice
+- `!license` - Display information about the license
 
 ## Goals
 - Import characters from Shadowdarklings either by pasting the JSON or with the share url
@@ -17,14 +30,6 @@ This is a Discord bot designed for playing [Shadowdark RPG](https://www.thearcan
 - Provide lookup for all the material available under the Shadowdark Third-Party license: spells, monsters, and magic items
 - Dice rolling using Avrae's d20 library
 - Provide a command-based interface for easy interaction
-
-## Capabilities
-- Character sheet management and display
-- Weapon data storage and retrieval
-- Attack calculation with modifiers and damage
-- Inventory management (gear, treasures, and magic items)
-- Dice rolling functionality using the d20 library
-- Command-based interface for easy interaction
 
 ## License
 StringbatBot is proprietary software.
