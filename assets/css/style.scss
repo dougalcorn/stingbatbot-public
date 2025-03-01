@@ -1,0 +1,38 @@
+@import "{{ site.theme }}";
+
+/* Basic styling for the site */
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Make sure paragraphs properly wrap around floated elements */
+p {
+  overflow: auto;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #267CB9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px 0;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1c5a8b;
+  text-decoration: none;
+  color: white;
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}

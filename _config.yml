@@ -23,4 +23,8 @@ kramdown:
 # repository: username/repository-name
 
 # Optional: Google Analytics
-# google_analytics: [your tracking ID] 
+# google_analytics: [your tracking ID]
+
+# Make sure images directory is included
+include:
+  - images 
