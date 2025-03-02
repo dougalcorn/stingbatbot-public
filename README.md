@@ -16,7 +16,7 @@ This is a Discord bot designed for playing [Shadowdark RPG](https://www.thearcan
 
 ## Commands
 
-<img src="images/Gund Short Sheet 2025-03-01 at 4.42.44 PM.png" alt="Character Sheet Summary" style="width: 300px; margin: 0 auto; display: block; float: right;">
+<img src="images/gund-short-sheet.png" alt="Character Sheet Summary" style="width: 300px; margin: 0 auto; display: block; float: right;">
 - `!help` - Display a list of commands
 - `!sheet` - Display a character sheet summary
 - `!details` - Display a character's details: attacks with descriptions, full inventory, and spells
