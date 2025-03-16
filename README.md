@@ -38,16 +38,32 @@ Here's a sample list of commands implemented so far:
 - `!character delete` - Delete a specific character from the database.
 - `!sheet` - Display a character sheet summary
 - `!details` - Display a character's details: attacks with descriptions, full inventory, and spells
-- `!roll` - Roll a dice
 - `!license` - Display information about the license
 
-## Goals
-- Import characters from Shadowdarklings either by uploading the JSON or with the share url
-- Display character sheets including attacks, spells, and inventory
-- Calculate attack, damage, and spell modifiers
+## TODO
+- Support importing and updating via Shadowdarklings JSON API when released
 - Provide lookup for all the material available under the Shadowdark Third-Party license: spells, monsters, and magic items
 - Dice rolling using Avrae's d20 library
 - Provide a command-based interface for easy interaction
+
+## Current status
+- Imports characters with JSON upload
+- Stores characters in Postgres database
+- Shows a clean summary of character
+- Shows a detailed list of everything parsed with explainations on bonuses
+- Ancestries:
+  - Elf: Farsight applied to spell casting and ranged attacks
+  - Kobold: Knack bonus to spell casting
+  - Half-Orc: Mighty bonus to attack and damage
+- Classes:
+  - Fighter weapon mastery bonus to attack and damage
+  - Fighter talent for bonus to attack
+  - Wizard talent for plus 1 to spell casting
+  - Priest talent for plus 1 to spell casting
+- Magic Weapons
+  - Apply bonus to attack and damage
+  - Tie back to base weapon for weapon mastery
+  - Tie back to base weapon for range, damage die
 
 ## License
 StringbatBot is proprietary software.
