@@ -1,4 +1,15 @@
+---
+---
+
 @import "{{ site.theme }}";
+
+/* Override wrapper margins after importing the theme */
+div.wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 960px !important;
+}
 
 /* Basic styling for the site */
 section {
@@ -36,3 +47,4 @@ p {
   text-align: center;
   margin: 20px 0;
 }
+
