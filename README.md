@@ -16,17 +16,7 @@ This is a Discord bot designed for playing [Shadowdark RPG](https://www.thearcan
 
 ## Getting Started
 
-1. Download the JSON file from Shadowdarklings.net:
-
-- Select or create a Character
-- All the way at the bottom, be sure to save the Character
-- Then export the character as a JSON file.
-
-2. Invite Singbatbot to your Discord server with the button above. Note that the dev bot will only be running when I'm actually doing local development.
-
-3. Add your character with the `import` command. It expects you to attach the JSON file to the command. 
-
-4. It will parse the character sheet and present a detailed view of what's been parsed. You need to then "Accept" or "Cancel" the character. Once you accept it, it will be saved to the database. Otherwise, it will be deleted.
+<div style="position: relative; padding-bottom: 64.86486486486486%; height: 0;"><iframe src="https://www.loom.com/embed/fd5a49ef14b44687841cb21cdf1fc4eb?sid=2c1db88d-160d-4520-9d46-c3a954aa5032" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"></iframe></div>
 
 ## Commands
 
