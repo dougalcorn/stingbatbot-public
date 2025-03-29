@@ -23,12 +23,18 @@ This is a Discord bot designed for playing [Shadowdark RPG](https://www.thearcan
 Here's a sample list of commands implemented so far:
 
 - `!help` - Display a list of commands
-- `!character <name>` - Display a character sheet summary
+- `!character <name>` - Select a character
 - `!character list` - List all saved characters
 - `!character delete` - Delete a specific character from the database.
 - `!sheet` - Display a character sheet summary
 - `!details` - Display a character's details: attacks with descriptions, full inventory, and spells
+- `!attack <weapon>` - Roll a computed attack roll based on selected character and an equipped weapon
+- `!check <stat>` - Make a skill check with the selected character
 - `!license` - Display information about the license
+
+Here's a demo of the character selection, attack rolls, and skill check rolls:
+
+<div style="position: relative; padding-bottom: 64.86486486486486%; height: 0;"><iframe src="https://www.loom.com/embed/bc3a56ebeb144af68aedbdaf8e66f2da?sid=12d03442-0ffe-4899-a091-9375fabcf3d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"></iframe></div>
 
 ## TODO
 - Support importing and updating via Shadowdarklings JSON API when released
